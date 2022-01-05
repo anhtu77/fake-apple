@@ -1,0 +1,538 @@
+.section-imac{
+    padding: 63px 0 120px 0;
+}
+
+.section-content{
+    margin: 0 auto;
+    max-width: 980px;
+    text-align: center;
+    align-items: center;
+}
+
+.product-headline{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.product-new{
+    font-weight: 600;
+    background: rgba(0,0,0,0);
+    border-color: #bf4800;
+    color: #f56300;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.product-subhead{
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: .007em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-bottom: 0.4em
+}
+
+.product-link{
+    margin-top: 1em;
+}
+
+.product-link-purchase{
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+}
+
+.product-link-purchase:hover{
+    background: rgb(33, 132, 231);
+}
+
+.product-unit-link{
+    margin-top: 0.85em;
+}
+
+.link-item{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #06c;
+    text-decoration: none;
+}
+
+.link-item:hover{
+    text-decoration: underline;
+}
+
+.link-icon-container{
+    position: relative;
+    display: inline-block;
+}
+
+.heros-icon{
+    font-size: 11px;
+    position: absolute;
+    top: -10px;
+    color: #06c;
+}
+
+.section-img-imac{
+    background: url(../img/hero_imac_24__eq5phrdpwjyq_large.jpg);
+    width: 1070px;
+    height: 446px;
+    background-size: 1070px 446px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -535px;
+    margin-top: 32px;
+}
+
+.section-compare{
+    padding-top: 110px;
+    text-align: center;
+    background: #fafafa;
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.unit-compare{
+    margin: 30px 0 62px 0;
+}
+
+.tablist-wrapper{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 3.17647em;
+    font-size: 17px;
+    text-align: center;
+    z-index: 1;
+}
+
+.tabnav-items{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0 34px;
+    padding: 0 0 3.17647em;
+}
+
+.tabnav-item{
+    border-bottom: 1px solid #d2d2d7;
+    outline: none;
+}
+
+.tabnav-link{
+    font-size: 17px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -.021em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding: 9px 0 11px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    color: #6e6e73;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+
+.current{
+    padding-left: 60px;
+}
+
+.section-headline{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.product-item-container{
+    height: 1593px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.compare-table{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 34px;
+    grid-row-gap: 38px;  
+    grid-template-rows: repeat(11, auto);
+    grid-template-areas: 
+        'air-device pro-13-device pro-16-device'
+        'air-buy pro-13-buy pro-16-buy' 
+        'air-display pro-13-display pro-16-display' 
+        'air-chip pro-13-chip pro-16-chip'
+        'air-memory pro-13-memory pro-16-memory'
+        'air-storage pro-13-storage pro-16-storage'
+        'air-battery pro-13-battery pro-16-battery'
+        'air-camera pro-13-camera pro-16-camera'
+        'air-weight pro-13-weight pro-16-weight'
+        'air-keyboard pro-13-keyboard pro-16-keyboard'
+        'air-link pro-13-link pro-16-link' 
+    ;
+    max-width: 940px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+   
+}
+/*grid area call out*/
+.mb-air-device{
+    grid-area: air-device;
+}
+
+.mb-air-buy{
+    grid-area: air-buy;
+    margin-top: -30px;
+    padding: 4px 0 11px;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+.mb-air-display{
+    grid-area: air-display;
+}
+
+.mb-air-chip{
+    grid-area: air-chip;
+}
+
+.mb-air-memory{
+    grid-area: air-memory;
+}
+
+.mb-air-storage{
+    grid-area: air-storage;
+}
+
+.mb-air-battery{
+    grid-area: air-battery;
+}
+
+.mb-air-camera{
+    grid-area: air-camera;
+}
+
+.mb-air-weight{
+    grid-area: air-weight;
+}
+
+.mb-air-keyboard{
+    grid-area: air-keyboard;
+}
+
+.mb-air-link{
+    grid-area: air-link;
+}
+
+
+.mb-pro-13-device{
+    grid-area: pro-13-device;
+}
+
+.mb-pro-13-buy{
+    grid-area: pro-13-buy;
+    margin-top: -30px;
+    padding: 4px 0 11px;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+.mb-pro-13-display{
+    grid-area: pro-13-display;
+}
+
+.mb-pro-13-chip{
+    grid-area: pro-13-chip;
+}
+
+.mb-pro-13-memory{
+    grid-area: pro-13-memory;
+}
+
+.mb-pro-13-storage{
+    grid-area: pro-13-storage;
+}
+
+.mb-pro-13-battery{
+    grid-area: pro-13-battery;
+}
+
+.mb-pro-13-camera{
+    grid-area: pro-13-camera;
+}
+
+.mb-pro-13-weight{
+    grid-area: pro-13-weight;
+}
+
+.mb-pro-13-keyboard{
+    grid-area: pro-13-keyboard;
+}
+
+.mb-pro-13-link{
+    grid-area: pro-13-link;
+}
+
+
+.mb-pro-16-device{
+    grid-area: pro-16-device;
+}
+
+.mb-pro-16-buy{
+    grid-area: pro-16-buy;
+    margin-top: -30px;
+    padding: 4px 0 11px;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+.mb-pro-16-display{
+    grid-area: pro-16-display;
+}
+
+.mb-pro-16-chip{
+    grid-area: pro-16-chip;
+}
+
+.mb-pro-16-memory{
+    grid-area: pro-16-memory;
+}
+
+.mb-pro-16-storage{
+    grid-area: pro-16-storage;
+}
+
+.mb-pro-16-battery{
+    grid-area: pro-16-battery;
+}
+
+.mb-pro-16-camera{
+    grid-area: pro-16-camera;
+}
+
+.mb-pro-16-weight{
+    grid-area: pro-16-weight;
+}
+
+.mb-pro-16-keyboard{
+    grid-area: pro-16-keyboard;
+}
+
+.mb-pro-16-link{
+    grid-area: pro-16-link;
+}
+/*        */
+.img-wrapper{
+    margin-bottom: 48px;
+}
+
+.img-compare{
+    width: 276px;
+    height: 167px;
+    background-size: 276px 167px;
+    background-repeat: no-repeat;
+}
+
+.mb-air-img{
+    background: url(../img/compare_mba__gdncw5gbxoq6_large.png);
+}
+
+.mb-pro-13-img{
+    background: url(../img/compare_mbp13__geounnnz6oa6_large.png);
+}
+
+.mb-pro-16-img{
+    background: url(../img/compare_mbp16__fykfvftfaeuu_large.png);
+}
+
+
+
+.chip-img{
+    background: url(../img/compare_icon_m1__fz8nzgohw2ai_large.png);
+}
+
+.device-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.device-color-mb-air{
+    background: url(../img/compare_swatches_three_colors__e2hki8qb5cia_large.png);
+    width: 70px;
+    height: 19px;
+    background-size: 70px 19px;
+    background-repeat: no-repeat;
+    margin: 12px 0 10px;
+}
+
+.device-color-mb-pro{
+    background: url(../img/compare_swatches_two_colors__02sdegyq25eq_large.png);
+    width: 45px;
+    height: 19px;
+    background-size: 45px 19px;
+    background-repeat: no-repeat;
+    margin: 12px 0 10px;
+}
+
+.buy{
+    padding-top: 4px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+.buy a{
+    margin-bottom: 18px;
+    display: inline-block;
+}
+
+.compare-buy-button{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 23px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 980px;
+    background-color: #06c;
+}
+
+.compare-buy-button:hover{
+    background-color: #0071e3;
+}
+
+.device-headline{
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+.device-spec{
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.device-description{
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-left: 46.5px;
+    margin-right: 46.5px;
+    color: #86868B;
+}
+
+.chip-img{
+    width: 48px;
+    height: 44px;
+    background-size: 48px 44px;
+    background-repeat: no-repeat;
+}
+
+.m1-chip{
+    background: url(../img/compare_icon_m1__fz8nzgohw2ai_large.png);
+}
+
+.intel-chip{
+    background: url(../img/compare_icon_intel__etladu21xu6a_large.png);
+}
+
+.memory-img{
+    width: 48px;
+    height: 44px;
+    background-size: 48px 44px;
+    background-repeat: no-repeat;
+}
+  
+.mem-16gb{
+    background: url(../img/compare_icon_unified_memory__buw4hhhvj4uq_large.png);
+}
+
+.mem-64gb{
+    background: url(../img/compare_icon_memory__d1hszl4x5yy6_large.png);
+}
+
+.battery-img{
+    background: url(../img/compare_icon_battery__gbh9jzw6c7u6_large.png);
+    width: 48px;
+    height: 44px;
+    background-size: 48px 44px;
+    background-repeat: no-repeat;
+}
+
+.camera-img{
+    background: url(../img/compare_icon_camera__ejp1p20yq1me_large.png);
+    width: 48px;
+    height: 44px;
+    background-size: 48px 44px;
+    background-repeat: no-repeat;
+}
+
+.air-keyboard{
+    background: url(../img/compare_icon_touchid__e9878ag21q6i_large.png);
+    width: 48px;
+    height: 44px;
+    background-size: 48px 44px;
+    background-repeat: no-repeat;
+}
+
+.pro-keyboard{
+    background: url(../img/compare_icon_touchbar__f7w2g23m47u6_large.png);
+    width: 165px;
+    height: 38px;
+    background-size: 165px 38px;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+
+.compare-link{
+    padding-top: 22px;
+    border-top: 1px solid #d2d2d7;
+}
+
+.compare-link a{
+    font-size: 14px;
+}
+
+.compare-link i{
+    font-size: 9px;
+    top: -9px;
+}

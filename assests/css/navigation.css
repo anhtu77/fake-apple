@@ -1,0 +1,247 @@
+.navbar{
+    background:rgba(0, 0, 0, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 44px;
+    z-index: 9999;
+}
+
+.navbar-content{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 22px;
+    position: relative;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar-item{
+    box-sizing: border-box;
+    height: 44px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    vertical-align: top;
+}
+
+.navbar-link{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    line-height: 3.14286;
+    letter-spacing: -0.01em;
+    padding: 0 10px;
+    height: 44px;
+    opacity: .8;
+    white-space: nowrap;
+    outline-offset: -7px;
+    transition: 0.3s 
+        cubic-bezier(0.25, 0.1, 0.25, 0.1);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-link:hover{
+    opacity: 1;
+    transition: 0.3s 
+        cubic-bezier(0.25, 0.1, 0.25, 0.1);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.link-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.apple{
+    font-size: 20px!important;
+}
+
+/*mac.html*/
+.mac{
+    color: #f5f5f7ad;
+}
+
+.chapternav{
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background: rgba(245,245,247,0.6);
+    background: rgba(245,245,247,0.7);
+}
+
+.chapternav{
+    margin-top: 44px;
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    height: 100px;
+    z-index: 9987;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.chapternav-wrapper{
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    animation: chapternav-slide backwards 350ms;
+}
+
+@keyframes chapternav-slide {
+    from {left: 400px;}
+    to {left: 0px;}
+}
+
+.chapternav-items{
+    padding-bottom: 49px;
+    margin: 0 34px;
+    list-style: none;
+}
+
+.chapternav-item{
+    display: inline-block;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 -.11765em;
+    padding: 0 20px;
+    animation: chapternav-slidein 350ms backwards;
+}
+
+.chapternav-link{
+    color: #1d1d1f;
+    display: block;
+    padding: 0;
+    margin-top: 3px;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.chapternav-link:hover{
+    color: #06c;
+}
+
+.chapternav-label{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: block;
+    margin: 0;
+}
+
+.chapternav-new{
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -.008em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #bf4800;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+.chapternav-icon{
+    margin-bottom: 4px;
+    background: center bottom no-repeat;
+    display: block;
+    margin: 0 auto 7px;
+}
+
+.chapternav-item-macbook-air .chapternav-icon{
+    background: url(../svg/macbookair_light__fj8r9488gr6u_large.svg);
+    width: 52px;
+    height: 54px;
+    background-size: 52px 54px;
+    background-repeat: no-repeat;
+}
+
+.chapternav-item-macbook-pro-13 .chapternav-icon{
+    background: url(../svg/macbook_pro_13_light__erjvypflcis2_large.svg);
+    width: 51px;
+    height: 54px;
+    background-size: 51px 54px;
+    background-repeat: no-repeat;
+}
+
+.chapternav-item-macbook-pro-16 .chapternav-icon{
+    background: url(../svg/macbook_pro_16_light__cialfoihbk02_large.svg);
+    width: 58px;
+    height: 54px;
+    background-size: 58px 54px;
+    background-repeat: no-repeat;
+}
+
+.chapternav-item-imac-24 .chapternav-icon{
+    background: url(../svg/imac_24__e0tdvilut5qq_large.svg);
+    width: 45px;
+    height: 54px;
+    background-size: 45px 54px;
+    background-repeat: no-repeat;
+}
+
+.chapternav-item-imac-27 .chapternav-icon{
+    background: url(../svg/imac_27_light__gbkfmaud0qaa_large.svg);
+    width: 48px;
+    height: 54px;
+    background-size: 48px 54px;
+    background-repeat: no-repeat;
+}
+
+.chapternav-item-mac-pro .chapternav-icon{
+    background: url(../svg/mac_pro_light__dq2h14cvit6q_large.svg);
+    width: 35px;
+    height: 54px;
+    background-size: 35px 54px;
+    background-repeat: no-repeat;
+}
+
+.chapternav-item-mac-mini .chapternav-icon{
+    background: url(../svg/mac_mini_light__chxdj29efvrm_large.svg);
+    width: 28px;
+    height: 54px;
+    background-size: 28px 54px;
+    background-repeat: no-repeat;
+}
+
+.chapternav-item-compare .chapternav-icon{
+    background: url(../svg/mac_compare__cixm3zhf3k76_large.svg);
+    width: 74px;
+    height: 54px;
+    background-size: 74px 54px;
+    background-repeat: no-repeat;
+}
+
+.chapternav-item-pro-display-xdr .chapternav-icon{
+    background: url(../svg/mac_pro_display_light__ditp43qhvlm6_large.svg);
+    width: 46px;
+    height: 54px;
+    background-size: 46px 54px;
+    background-repeat: no-repeat;
+}
+
+.chapternav-item-big-sur .chapternav-icon{
+    background: url(../svg/mac_os__e6brlkg0n10m_large.svg);
+    width: 35px;
+    height: 54px;
+    background-size: 35px 54px;
+    background-repeat: no-repeat;
+}
